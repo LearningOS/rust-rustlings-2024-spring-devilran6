@@ -1204,14 +1204,14 @@ https://doc.rust-lang.org/nightly/std/index.html"""
 [[exercises]]
 name = "tests7"
 path = "exercises/tests/tests7.rs"
-mode = "test"
+mode = "buildscript"
 hint = """
 The command to set up an environment variable is "rustc-env=VAR=VALUE"."""
 
 [[exercises]]
 name = "tests8"
 path = "exercises/tests/tests8.rs"
-mode = "test"
+mode = "buildscript"
 hint = """
 The command to set up an environment variable is "rustc-cfg=CFG[="VALUE"]", while
 the square brackets means optional. Be sure what `CFG` and `VALUE` you want here."""
